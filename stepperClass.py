@@ -35,9 +35,9 @@ class Motor():
 Motor1 = Motor(18,16)
 
 while True:
-    direcInput = raw_input(" enter O or C: ")
+    Input = raw_input(" enter a or c: ")
     numSteps = raw_input("how many steps : ")
-    if direcInput == 'c':
+    if Input == 'c':
         Motor1.Move(1,int(numSteps))
         print("Clock wise")
     else:
